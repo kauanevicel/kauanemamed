@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está participando de uma feira de ciências e vê um projeto de IA que pode prever padrões climáticos com alta precisão. Qual é a sua opinião sobre esse tipo de tecnologia?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "Isso pode ser muito útil para melhorar a previsão do tempo e ajudar na preparação para desastres naturais.",
+                tipo: "benefício"
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "Fico preocupado com a precisão dos dados e o potencial de erros na previsão que poderiam ter consequências graves.",
+                tipo: "preocupação"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Durante uma discussão em sala de aula, um colega sugere que a IA deve ser usada para monitorar o desempenho dos alunos e fornecer feedback automático. Como você responde a essa ideia?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "Acho uma boa ideia, pois pode oferecer um feedback rápido e personalizado para ajudar os alunos a melhorar seu desempenho.",
+                tipo: "aplicação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "Prefiro que o feedback seja dado por professores, pois eles podem oferecer uma perspectiva mais humana e compreensiva.",
+                tipo: "preferência"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Imagine que uma empresa oferece uma IA que pode criar arte baseada nas preferências do usuário. Você acha que isso é uma boa forma de promover a criatividade?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "Sim, pois pode inspirar pessoas e democratizar o acesso à criação artística.",
+                tipo: "benefício"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Não, pois pode diminuir o valor da arte criada por humanos e limitar a expressão artística genuína.",
+                tipo: "preocupação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você lê um artigo sobre o uso de IA para diagnosticar doenças de forma mais rápida e precisa. Qual é a sua reação?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Acredito que isso pode revolucionar a medicina, tornando os diagnósticos mais rápidos e reduzindo erros.",
+                tipo: "benefício"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "Estou preocupado com a possibilidade de dependência excessiva da tecnologia e o impacto no julgamento humano dos médicos.",
+                tipo: "preocupação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você está explorando um aplicativo de IA que recomenda livros baseados nas suas leituras anteriores. Como você acha que a IA pode impactar o mercado editorial?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Pode ajudar leitores a descobrir novos livros que se alinhem com seus interesses e aumentar a diversidade de leitura.",
+                tipo: "benefício"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Pode criar uma bolha de recomendações, limitando a exposição a novos gêneros e autores diferentes.",
+                tipo: "preocupação"
             }
         ]
-    },
+    }
 ];
 
 
